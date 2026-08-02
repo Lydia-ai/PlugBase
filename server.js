@@ -57,10 +57,11 @@ app.use("/cart", cartRoutes);
 const startServer = async () => {
   try {
     await connectDB();
+const PORT = process.env.PORT || 3000;
 
-    server.listen(3000, () => {
-      console.log("Plugbase server running on http://localhost:3000");
-    });
+server.listen(PORT, () => {
+  console.log(`PlugBase server running on port ${PORT}`);
+});
 
   } catch (error) {
     console.error("Failed to start server:", error.message);
