@@ -140,3 +140,8 @@ Oreoluwa Ojikutu
 Computer Science Student | Software Engineering Enthusiast | Problem Solver
 
 GitHub: https://github.com/Lydia-ai
+
+
+## Live API
+
+https://plugbase-1.onrender.com
